@@ -13,7 +13,6 @@ typedef struct Stack
 void init(Stack* s);
 int isEmpty(const Stack* s);
 int isFull(const Stack* s);
-static void sorted(Stack* s);
 int min(const Stack* s);
 void push(Stack* s, int value);
 int pop(Stack* s);
