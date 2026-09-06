@@ -19,10 +19,6 @@ typedef struct Stack
     int currentQueue;
 } Stack;
 
-static void enqueue(Queue* q, int value);
-static int dequeue(Queue* q);
-static int queueEmpty(Queue* q);
-
 int isFull(Stack* s);
 int isEmpty(Stack* s);
 void initStack(Stack* s);
